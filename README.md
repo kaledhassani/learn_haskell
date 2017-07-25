@@ -107,6 +107,5 @@ elem takes something and tells you whether it exists in the given list, e.g elem
 
 
 
-
 ## Notes
 
