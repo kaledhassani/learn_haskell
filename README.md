@@ -8,6 +8,16 @@ http://learnyouahaskell.com/introduction
 
 Download core platform from: https://www.haskell.org/platform/ (210MB)
 
+## Running Code
+
+## Interactive Mode
+
+> ghci
+
+If you've defined some functions in a file you can load them by
+
+> :l functions.hs
+
 ## Definitions
 
 Infix function - a function that's sandwiched by two numbers such as + - or *
