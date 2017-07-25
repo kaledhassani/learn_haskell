@@ -8,25 +8,35 @@ http://learnyouahaskell.com/introduction
 
 Download core platform from: https://www.haskell.org/platform/ (210MB)
 
+## Definitions
+
 Infix function - a function that's sandwiched by two numbers such as + - or *
 
 Prefix function - where the function name precedes the argument/s
 
-succ - takes something with predefined value and returns next one
+## Functions
 
+* You can use ' in a function name, it has no special meaning in Haskell
+
+* Spaces are used for function application, not necessarily parenthesis, e.g bar( bar 3), here bar is first applied to 3 then bar is applied to the result of that
+
+* Function names can't begin with upper case letters
+
+* When a function doesn't take a parameter, it's called a definition
+
+### In-Built
+succ - takes something with predefined value and returns next one
 min / max - as stated
+
+## Shortcuts
 
 If a prefix function takes two parameters, we can call it as an infix function by backticking it e.g 92 `div` 10
 
-Spaces are used for function application, not necessarily parenthesis, e.g bar( bar 3), here bar is first applied to 3 then bar is applied to the result of that
+## Conditionals
 
 If statements must include an else, if statements are an expression because they always return a value, you could take the expression and pass it or use it in another expression
 
-You can use ' in a function name, it has no special meaning in Haskell
-
-Function names can't begin with upper case letters
-
-When a function doesn't take a parameter, it's called a definition
+## Lists
 
 Lists in Haskell are homogenous, that is they contain the same type in each element
 
@@ -44,3 +54,4 @@ Get an element out of a list using its index using !!, e.g "Steve Buscemi" !! 6 
 
 Lists can contain lists that can contain lists ! BUT they must be of the same type
 
+## Notes
