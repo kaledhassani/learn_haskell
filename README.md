@@ -12,11 +12,15 @@ Download core platform from: https://www.haskell.org/platform/ (210MB)
 
 ## Interactive Mode
 
-> ghci
+```
+ghci
+```
 
 If you've defined some functions in a file you can load them by
 
-> :l functions.hs
+```
+:l functions.hs
+```
 
 ## Definitions
 
