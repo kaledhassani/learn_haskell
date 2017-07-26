@@ -105,7 +105,25 @@ product multiplies all the elements in a list
 
 elem takes something and tells you whether it exists in the given list, e.g elem 4 [0,1,3,4] returns True
 
+## List Comprehension
 
+### Basic structure
+
+```
+[x*2 | x <- [1..10], x <= 5]
+```
+
+before the pipe - output function
+after the pipe - x is the variable
+[1..10] is the input set
+after the comma - x <= 5 is the predicate
+
+## Examples
+
+```
+boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x] 
+```
+
+A function, given input set returns a string depending on the 
 
 ## Notes
-
